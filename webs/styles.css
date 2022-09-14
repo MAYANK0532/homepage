@@ -228,6 +228,7 @@
 }
 
 .main__container{
+    flex-wrap:wrap;
 position: absolute;
 z-index: 10;
 top: 40%;
@@ -237,7 +238,7 @@ text-align:center;
 
 .main__content {
     display: flex;
-    
+    flex-wrap:wrap;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -253,7 +254,7 @@ text-align:center;
     font-size:19px;
 }
 .main__btn{
-    fony-size:1rem;
+    font-size:1rem;
     background-image:linear-gradient(to top,white 0%, pink 100%);
    border:none;
     border-radius:4px;
@@ -524,47 +525,51 @@ font-size:14px;
 }
 /*offer*/
 
-.offer-container{
+.offer-container
+{
+    box-sizing:border-box;
+    padding:0;
+    margin-top:-5%;
 
-    box-sizing: border-box;
-    background-color: #ffffff;
-    margin-top:0%;
 }
-
 .contain{
-    margin-top:-6%;
-    flex-wrap:wrap;
-        display:flex;
-        justify-content: center;
-        padding:-100px;
-        margin-bottom:-30px;
-    
-    }
-
+    margin-top:6%;
+flex-wrap:wrap;
+    display:flex;
+    justify-content: center;
+    padding:100px;
+    margin-bottom:-30px;
+margin-left:10%;
+}
 .circle{
-    
+    box-shadow: 13px 13px whitesmoke;
+    border-radius:30px;
     background:white;
     width:290px;
     height:430px;
     margin:10px;
    font-size:14px;
    align-items: center;
+   margin-left:10%;
  text-align: center;
-}
-.circle_img{
+ 
    
-    height:260px;
-background-size:cover;
- margin-bottom:15px;
 }
-.circle__img img{
+
+.circle_img{
     border-radius:50%;
+       height:260px;
+background-size:cover;
+    margin-bottom:15px;
+}  
+.circle_img img{
+    border-radius:50%%;
 }
 .circle h2{
     padding:8px;
 }
 .circle pre{
-    font-size:15px;
+    font-size:12px;
     padding:10px;
     margin-left:-90px;
 }
