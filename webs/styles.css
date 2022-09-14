@@ -298,21 +298,33 @@ border-radius:4px;
 .foot__container{
     background-color:rgb(0, 68, 255);
     text-align:center;
+   padding: 0%;
+ 
+   
     
+}
+.ft_hd
+{
+    padding:5rem;
+margin-bottom:-21px;
 }
 .foot__container h1{
     text-align:center;
     font-size:43px;
     color:white;
+    margin-bottom:-1000px;
+
 }
 
 .foot__container h2{
     text-align:center;
-    margin-top:5px;
-    font-size:18px;
+    font-size:16px;
     color:white;
 }
-#mail{ text-align:center;
+
+#mail
+{ 
+    text-align:center;
     margin-top:1rem;
     height:42px;
     font-size:20px;
@@ -327,25 +339,72 @@ border-radius:4px;
 }
 
 .foot__container h3{
-    margin-top:8px;
+    margin-top:10px;
     font-size:20px;
     color:white;
-
+margin-top:6rem;
 margin-left:-82%;
 }
 
 .para{
     margin-top:1px;
-    font-size:17px;
+    font-size:14px;
     color:white;
-margin-left:-55%;
+margin-left:-59%;
 text-justify: auto;
 
 }
 .foot__container h5{
     font-size:12px;
-    margin-left:-70%;
+    margin-left:-73%;
+}
+/*WHYUS*/
+.head{
+    text-align:center;
+    font-size:39px;
+       
+}
+.us_container
+{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+
+}
+.container{
+flex-wrap:wrap;
+    display:flex;
+    justify-content: center;
+
+}
+.card{
+    box-shadow: 13px 13px whitesmoke;
+    border-radius:30px;
+    background:white;
+    width:290px;
+    height:430px;
+    margin:10px;
+   font-size:14px;
+   align-items: center;
+ text-align: center;
+   
 }
 
+.card__img{
+    border-radius:20px;
+       height:260px;
+background-size:cover;
+    margin-bottom:15px;
+}  
+img{
+    border-radius:7%;
+}
+.card h2{
+    padding:8px;
+}
+.card pre{
+    font-size:15px;
+    padding:10px;
+    margin-left:-90px;
+}
 /*offer*/
-
